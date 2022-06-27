@@ -1,0 +1,583 @@
+0000.000 (0) Opened log file at time: Sun, 18 Jul 2021 09:03:32 +0000 on https://juzzcurious.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.59 WP: 5.5.5 PHP: 7.4.8 (litespeed, Linux sg-nme-web352.main-hosting.eu 4.18.0-147.8.1.el7h.lve.1.x86_64 #1 SMP Mon Jun 29 09:05:02 EDT 2020 x86_64) MySQL: 10.4.19-MariaDB-cll-lve (max packet size=16777216) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 10.7M | 12M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 3084489.4 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.010 (0) Semaphore (fd, wp_options) being initialised
+0000.014 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.018 (0) Set semaphore last lock (fd) time to 2021-07-18 09:03:32
+0000.019 (0) Semaphore lock (fd) complete
+0000.023 (0) Backup run: resumption=0, nonce=59e60e5f815e, file_nonce=59e60e5f815e begun at=1626599012 (0s ago), job type=backup
+0000.024 (0) Scheduling a resumption (1) after 300 seconds (1626599312) in case this run gets aborted
+0000.052 (0) Checking if we have a zip executable available
+0000.053 (0) Testing: /usr/bin/zip
+0000.060 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.061 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.062 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.063 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.064 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.072 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.074 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.076 (0) Working binary zip found: /usr/bin/zip
+0000.079 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.080 (0) Creation of backups of directories: beginning
+0000.084 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.366 (0) Total entities for the zip file: 1860 directories, 9364 files (0 skipped as non-modified), 135.4 MB
+0004.369 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0004.505 (0) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: size is now: 0.40 MB
+0004.567 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 100 files added (on-disk size: 451.4 KB)
+0004.573 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 200 files added (on-disk size: 451.4 KB)
+0004.576 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 300 files added (on-disk size: 451.4 KB)
+0004.579 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 400 files added (on-disk size: 451.4 KB)
+0004.582 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 500 files added (on-disk size: 451.4 KB)
+0004.585 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 600 files added (on-disk size: 451.4 KB)
+0004.588 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 700 files added (on-disk size: 451.4 KB)
+0004.591 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 800 files added (on-disk size: 451.4 KB)
+0004.594 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 900 files added (on-disk size: 451.4 KB)
+0004.598 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1000 files added (on-disk size: 451.4 KB)
+0004.600 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.3 MB, 9364 files batched, 1001 (1002) added so far); re-opening (prior size: 451.4 KB)
+0012.345 (0) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: size is now: 3.60 MB
+0012.352 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1100 files added (on-disk size: 3690.4 KB)
+0012.357 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1200 files added (on-disk size: 3690.4 KB)
+0012.360 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1300 files added (on-disk size: 3690.4 KB)
+0012.363 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1400 files added (on-disk size: 3690.4 KB)
+0012.365 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1500 files added (on-disk size: 3690.4 KB)
+0012.368 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1600 files added (on-disk size: 3690.4 KB)
+0012.370 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1700 files added (on-disk size: 3690.4 KB)
+0012.373 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1800 files added (on-disk size: 3690.4 KB)
+0012.375 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1900 files added (on-disk size: 3690.4 KB)
+0012.377 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2000 files added (on-disk size: 3690.4 KB)
+0012.379 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.3 MB, 9364 files batched, 1001 (2003) added so far); re-opening (prior size: 3690.4 KB)
+0038.734 (0) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: size is now: 6.00 MB
+0038.741 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2100 files added (on-disk size: 6173.5 KB)
+0038.744 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2200 files added (on-disk size: 6173.5 KB)
+0038.747 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2300 files added (on-disk size: 6173.5 KB)
+0038.750 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2400 files added (on-disk size: 6173.5 KB)
+0038.753 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2500 files added (on-disk size: 6173.5 KB)
+0038.756 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2600 files added (on-disk size: 6173.5 KB)
+0038.760 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2700 files added (on-disk size: 6173.5 KB)
+0038.763 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2800 files added (on-disk size: 6173.5 KB)
+0038.766 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2900 files added (on-disk size: 6173.5 KB)
+0038.769 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3000 files added (on-disk size: 6173.5 KB)
+0038.771 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.2 MB, 9364 files batched, 1001 (3004) added so far); re-opening (prior size: 6173.5 KB)
+0083.708 (0) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: size is now: 14.00 MB
+0083.713 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3100 files added (on-disk size: 14385.1 KB)
+0083.715 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3200 files added (on-disk size: 14385.1 KB)
+0083.718 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3300 files added (on-disk size: 14385.1 KB)
+0083.720 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3400 files added (on-disk size: 14385.1 KB)
+0083.722 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3500 files added (on-disk size: 14385.1 KB)
+0083.725 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3600 files added (on-disk size: 14385.1 KB)
+0083.728 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3700 files added (on-disk size: 14385.1 KB)
+0083.730 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3800 files added (on-disk size: 14385.1 KB)
+0083.732 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3900 files added (on-disk size: 14385.1 KB)
+0083.765 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.4 MB, 9364 files batched, 993 (3997) added so far); re-opening (prior size: 14385.1 KB)
+0116.207 (0) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: size is now: 23.30 MB
+0116.213 (0) A useful amount of data was added after this amount of zip processing: 32.8 s (normalised: 32.2 s, rate: 795 KB/s)
+0116.217 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4000 files added (on-disk size: 23832.7 KB)
+0116.220 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4100 files added (on-disk size: 23832.7 KB)
+0116.223 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4200 files added (on-disk size: 23832.7 KB)
+0116.226 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4300 files added (on-disk size: 23832.7 KB)
+0116.228 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4400 files added (on-disk size: 23832.7 KB)
+0116.230 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4500 files added (on-disk size: 23832.7 KB)
+0116.232 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4600 files added (on-disk size: 23832.7 KB)
+0116.234 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4700 files added (on-disk size: 23832.7 KB)
+0116.236 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4800 files added (on-disk size: 23832.7 KB)
+0116.263 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4900 files added (on-disk size: 23832.7 KB)
+0116.267 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.6 MB, 9364 files batched, 1001 (4998) added so far); re-opening (prior size: 23832.7 KB)
+0159.308 (0) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: size is now: 31.80 MB
+0159.311 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5000 files added (on-disk size: 32567 KB)
+0159.317 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5100 files added (on-disk size: 32567 KB)
+0159.320 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5200 files added (on-disk size: 32567 KB)
+0159.323 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5300 files added (on-disk size: 32567 KB)
+0159.326 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5400 files added (on-disk size: 32567 KB)
+0159.366 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5500 files added (on-disk size: 32567 KB)
+0159.371 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5600 files added (on-disk size: 32567 KB)
+0159.378 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5700 files added (on-disk size: 32567 KB)
+0159.384 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5800 files added (on-disk size: 32567 KB)
+0159.391 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5900 files added (on-disk size: 32567 KB)
+0159.394 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.3 MB, 9364 files batched, 1001 (5999) added so far); re-opening (prior size: 32567 KB)
+0208.479 (0) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: size is now: 40.90 MB
+0208.484 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6000 files added (on-disk size: 41912.9 KB)
+0208.487 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6100 files added (on-disk size: 41912.9 KB)
+0208.491 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6200 files added (on-disk size: 41912.9 KB)
+0208.498 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6300 files added (on-disk size: 41912.9 KB)
+0208.501 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6400 files added (on-disk size: 41912.9 KB)
+0208.504 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6500 files added (on-disk size: 41912.9 KB)
+0208.507 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6600 files added (on-disk size: 41912.9 KB)
+0208.511 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6700 files added (on-disk size: 41912.9 KB)
+0208.514 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6800 files added (on-disk size: 41912.9 KB)
+0208.516 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6900 files added (on-disk size: 41912.9 KB)
+0208.519 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.5 MB, 9364 files batched, 1001 (7000) added so far); re-opening (prior size: 41912.9 KB)
+0255.081 (0) The scheduled resumption is within 45 seconds - will reschedule
+0255.085 (0) Rescheduling resumption 1: moving to 345 seconds from now (1626599612)
+0255.090 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0255.092 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7000 files added (on-disk size: 45597.4 KB)
+0255.095 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7100 files added (on-disk size: 45597.4 KB)
+0255.161 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7200 files added (on-disk size: 45597.4 KB)
+0255.165 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7300 files added (on-disk size: 45597.4 KB)
+0255.168 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7400 files added (on-disk size: 45597.4 KB)
+0255.171 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7500 files added (on-disk size: 45597.4 KB)
+0255.174 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7600 files added (on-disk size: 45597.4 KB)
+0255.177 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7700 files added (on-disk size: 45597.4 KB)
+0255.180 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7800 files added (on-disk size: 45597.4 KB)
+0255.182 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7900 files added (on-disk size: 45597.4 KB)
+0255.185 (0) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 8000 files added (on-disk size: 45597.4 KB)
+0255.186 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4 MB, 9364 files batched, 1001 (8001) added so far); re-opening (prior size: 45597.4 KB)
+0661.787 (1) Opened log file at time: Sun, 18 Jul 2021 09:14:34 +0000 on https://juzzcurious.com
+0661.789 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.59 WP: 5.5.5 PHP: 7.4.8 (litespeed, Linux sg-nme-web352.main-hosting.eu 4.18.0-147.8.1.el7h.lve.1.x86_64 #1 SMP Mon Jun 29 09:05:02 EDT 2020 x86_64) MySQL: 10.4.19-MariaDB-cll-lve (max packet size=16777216) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 9.1M | 10M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0661.790 (1) Free space on disk containing Updraft's temporary directory: 3083774.9 MB
+0661.792 (1) Requesting backup semaphore lock (59e60e5f815e)
+0661.795 (1) [Lock option (updraft_lock_59e60e5f815e, wp_options) was created in the database] debug
+0661.797 (1) [Lock (updraft_lock_59e60e5f815e, wp_options) acquired after initialising the database] info
+0661.799 (1) Backup run: resumption=1, nonce=59e60e5f815e, file_nonce=59e60e5f815e begun at=1626599012 (662s ago), job type=backup, previous check-in=298.4s
+0661.801 (1) Scheduling a resumption (2) after 345 seconds (1626600019) in case this run gets aborted
+0661.805 (1) Checking if we have a zip executable available
+0661.806 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0661.807 (1) Creation of backups of directories: had begun; will resume
+0661.809 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0661.811 (1) File exists (/home/u496879535/domains/juzzcurious.com/public_html/wp-content/updraft/backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1626599326, time_now=1626599674, diff=348)
+0662.006 (1) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: Zip file already exists, with 8001 files
+0662.510 (1) Total entities for the zip file: 1860 directories, 9364 files (0 skipped as non-modified), 135.4 MB
+0662.513 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 100 files added (on-disk size: 47022 KB)
+0662.561 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 200 files added (on-disk size: 47022 KB)
+0662.562 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 300 files added (on-disk size: 47022 KB)
+0662.564 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 400 files added (on-disk size: 47022 KB)
+0662.565 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 500 files added (on-disk size: 47022 KB)
+0662.567 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 600 files added (on-disk size: 47022 KB)
+0662.568 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 700 files added (on-disk size: 47022 KB)
+0662.569 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 800 files added (on-disk size: 47022 KB)
+0662.570 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 900 files added (on-disk size: 47022 KB)
+0662.571 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1000 files added (on-disk size: 47022 KB)
+0662.575 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1100 files added (on-disk size: 47022 KB)
+0662.577 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1200 files added (on-disk size: 47022 KB)
+0662.578 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1300 files added (on-disk size: 47022 KB)
+0662.579 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1400 files added (on-disk size: 47022 KB)
+0662.580 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1500 files added (on-disk size: 47022 KB)
+0662.580 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1600 files added (on-disk size: 47022 KB)
+0662.581 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1700 files added (on-disk size: 47022 KB)
+0662.582 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1800 files added (on-disk size: 47022 KB)
+0662.582 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 1900 files added (on-disk size: 47022 KB)
+0662.583 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2000 files added (on-disk size: 47022 KB)
+0662.586 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2100 files added (on-disk size: 47022 KB)
+0662.586 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2200 files added (on-disk size: 47022 KB)
+0662.587 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2300 files added (on-disk size: 47022 KB)
+0662.588 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2400 files added (on-disk size: 47022 KB)
+0662.589 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2500 files added (on-disk size: 47022 KB)
+0662.590 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2600 files added (on-disk size: 47022 KB)
+0662.591 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2700 files added (on-disk size: 47022 KB)
+0662.592 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2800 files added (on-disk size: 47022 KB)
+0662.593 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 2900 files added (on-disk size: 47022 KB)
+0662.594 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3000 files added (on-disk size: 47022 KB)
+0662.597 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3100 files added (on-disk size: 47022 KB)
+0662.598 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3200 files added (on-disk size: 47022 KB)
+0662.661 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3300 files added (on-disk size: 47022 KB)
+0662.664 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3400 files added (on-disk size: 47022 KB)
+0662.666 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3500 files added (on-disk size: 47022 KB)
+0662.669 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3600 files added (on-disk size: 47022 KB)
+0662.670 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3700 files added (on-disk size: 47022 KB)
+0662.671 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3800 files added (on-disk size: 47022 KB)
+0662.673 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 3900 files added (on-disk size: 47022 KB)
+0662.674 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4000 files added (on-disk size: 47022 KB)
+0662.677 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4100 files added (on-disk size: 47022 KB)
+0662.679 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4200 files added (on-disk size: 47022 KB)
+0662.680 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4300 files added (on-disk size: 47022 KB)
+0662.681 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4400 files added (on-disk size: 47022 KB)
+0662.682 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4500 files added (on-disk size: 47022 KB)
+0662.683 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4600 files added (on-disk size: 47022 KB)
+0662.684 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4700 files added (on-disk size: 47022 KB)
+0662.685 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4800 files added (on-disk size: 47022 KB)
+0662.686 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 4900 files added (on-disk size: 47022 KB)
+0662.687 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5000 files added (on-disk size: 47022 KB)
+0662.689 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5100 files added (on-disk size: 47022 KB)
+0662.690 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5200 files added (on-disk size: 47022 KB)
+0662.691 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5300 files added (on-disk size: 47022 KB)
+0662.692 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5400 files added (on-disk size: 47022 KB)
+0662.692 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5500 files added (on-disk size: 47022 KB)
+0662.693 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5600 files added (on-disk size: 47022 KB)
+0662.694 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5700 files added (on-disk size: 47022 KB)
+0662.695 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5800 files added (on-disk size: 47022 KB)
+0662.695 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 5900 files added (on-disk size: 47022 KB)
+0662.760 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6000 files added (on-disk size: 47022 KB)
+0662.764 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6100 files added (on-disk size: 47022 KB)
+0662.766 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6200 files added (on-disk size: 47022 KB)
+0662.768 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6300 files added (on-disk size: 47022 KB)
+0662.770 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6400 files added (on-disk size: 47022 KB)
+0662.771 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6500 files added (on-disk size: 47022 KB)
+0662.772 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6600 files added (on-disk size: 47022 KB)
+0662.773 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6700 files added (on-disk size: 47022 KB)
+0662.774 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6800 files added (on-disk size: 47022 KB)
+0662.775 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 6900 files added (on-disk size: 47022 KB)
+0662.776 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7000 files added (on-disk size: 47022 KB)
+0662.778 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7100 files added (on-disk size: 47022 KB)
+0662.779 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7200 files added (on-disk size: 47022 KB)
+0662.780 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7300 files added (on-disk size: 47022 KB)
+0662.781 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7400 files added (on-disk size: 47022 KB)
+0662.782 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7500 files added (on-disk size: 47022 KB)
+0662.782 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7600 files added (on-disk size: 47022 KB)
+0662.783 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7700 files added (on-disk size: 47022 KB)
+0662.784 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7800 files added (on-disk size: 47022 KB)
+0662.785 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 7900 files added (on-disk size: 47022 KB)
+0662.785 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 8000 files added (on-disk size: 47022 KB)
+0662.788 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 8100 files added (on-disk size: 47022 KB)
+0662.791 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 8200 files added (on-disk size: 47022 KB)
+0662.795 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 8300 files added (on-disk size: 47022 KB)
+0662.800 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 8400 files added (on-disk size: 47022 KB)
+0662.803 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 8500 files added (on-disk size: 47022 KB)
+0662.806 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 8600 files added (on-disk size: 47022 KB)
+0662.862 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 8700 files added (on-disk size: 47022 KB)
+0662.866 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 8800 files added (on-disk size: 47022 KB)
+0662.870 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 8900 files added (on-disk size: 47022 KB)
+0662.873 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 9000 files added (on-disk size: 47022 KB)
+0662.875 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.6 MB, 9364 files batched, 1001 (1001) added so far); re-opening (prior size: 47022 KB)
+0714.674 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 9100 files added (on-disk size: 50043.6 KB)
+0714.677 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 9200 files added (on-disk size: 50043.6 KB)
+0714.680 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip.tmp: 9300 files added (on-disk size: 50043.6 KB)
+0788.975 (1) Created plugins zip (0) - 50681.5 KB in 127.2 s (398.6 KB/s) (sha1: 66ab46dce881830f2f5aa9be1289fb81958326f2, sha256: 48e9f1e4b9157e2ab817114315a4d74e2f4f972088ec1c6f1c1897adeeb8135d)
+0788.979 (1) Beginning creation of dump of themes (split every: 400 MB)
+0789.664 (1) Total entities for the zip file: 118 directories, 411 files (0 skipped as non-modified), 5.1 MB
+0789.667 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0789.671 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0789.674 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0789.678 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0822.044 (1) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-themes.zip.tmp: size is now: 1.10 MB
+0823.989 (1) Created themes zip (0) - 1174.5 KB in 34.9 s (33.6 KB/s) (sha1: 81475dd662801e1df00c14eead4bd3fbb181aa0c, sha256: e9ccdaad9ccc159e5d76def17b4622ce3d843b53d94efe6f6ebf12b4bda8e9f7)
+0824.093 (1) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0824.108 (1) Looking for candidates to backup in: /home/u496879535/domains/juzzcurious.com/public_html/wp-content/uploads
+0824.117 (1) finding files: 2017: adding to list (1)
+0824.228 (1) finding files: 2018: adding to list (2)
+0824.236 (1) finding files: elementor: adding to list (3)
+0824.241 (1) finding files: 2020: adding to list (4)
+0824.251 (1) finding files: fbrfg: adding to list (5)
+0824.461 (1) finding files: 2019: adding to list (6)
+0824.673 (1) finding files: essential-addons-elementor: adding to list (7)
+0824.674 (1) finding files: slider3: adding to list (8)
+0824.768 (1) finding files: 2021: adding to list (9)
+0824.779 (1) finding files: slider2: adding to list (10)
+0824.780 (1) finding files: slider4: adding to list (11)
+0824.783 (1) finding files: astra-sites: adding to list (12)
+0824.786 (1) finding files: slider6: adding to list (13)
+0824.788 (1) Beginning creation of dump of uploads (split every: 400 MB)
+0828.800 (1) Total entities for the zip file: 43 directories, 970 files (0 skipped as non-modified), 97.1 MB
+0828.869 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0829.032 (1) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: size is now: 0.00 MB
+0829.074 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: 100 files added (on-disk size: 8.3 KB)
+0829.170 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (26.2 MB, 970 files batched, 157 (158) added so far); re-opening (prior size: 8.3 KB)
+0886.326 (1) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: size is now: 26.20 MB
+0886.366 (1) A useful amount of data was added after this amount of zip processing: 57.9 s (normalised: 55.3 s, rate: 463.3 KB/s)
+0886.370 (1) Performance is good - will increase the amount of data we attempt to batch (time=57.913783073425, normalised_time=55.258021562193, max_time=298, data points known=1, old_max_bytes=26214400, new_max_bytes=84822702)
+0886.374 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: 200 files added (on-disk size: 26862.4 KB)
+0886.376 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: 300 files added (on-disk size: 26862.4 KB)
+0886.378 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: 400 files added (on-disk size: 26862.4 KB)
+0886.381 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: 500 files added (on-disk size: 26862.4 KB)
+0886.383 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: 600 files added (on-disk size: 26862.4 KB)
+0886.386 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: 700 files added (on-disk size: 26862.4 KB)
+0886.388 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: 800 files added (on-disk size: 26862.4 KB)
+0886.391 (1) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: 900 files added (on-disk size: 26862.4 KB)
+1016.423 (2) Opened log file at time: Sun, 18 Jul 2021 09:20:28 +0000 on https://juzzcurious.com
+1016.427 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.59 WP: 5.5.5 PHP: 7.4.8 (litespeed, Linux sg-nme-web352.main-hosting.eu 4.18.0-147.8.1.el7h.lve.1.x86_64 #1 SMP Mon Jun 29 09:05:02 EDT 2020 x86_64) MySQL: 10.4.19-MariaDB-cll-lve (max packet size=16777216) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 9.1M | 10M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+1016.444 (2) Free space on disk containing Updraft's temporary directory: 3083553.4 MB
+1016.685 (2) Requesting backup semaphore lock (59e60e5f815e)
+1017.115 (2) [Lock (updraft_lock_59e60e5f815e, wp_options) acquired] info
+1017.579 (2) Backup run: resumption=2, nonce=59e60e5f815e, file_nonce=59e60e5f815e begun at=1626599012 (1018s ago), job type=backup, previous check-in=300s
+1017.819 (2) Scheduling a resumption (3) after 345 seconds (1626600375) in case this run gets aborted
+1018.267 (2) Checking if we have a zip executable available
+1018.362 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+1018.384 (2) Creation of backups of directories: had begun; will resume
+1018.624 (2) Beginning creation of dump of plugins (split every: 400 MB)
+1018.653 (2) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip: this file has already been created (age: 235 s)
+1018.861 (2) Terminate: zifycb0L exists with activity within the last 30 seconds (time_mod=1626600031, time_now=1626600031, diff=0, size=70796.9KB). This likely means that another UpdraftPlus run is at work; so we will exit.
+1019.275 (2) Rescheduling resumption 3: moving to 465 seconds from now (1626600496)
+1019.694 (2) To decrease the likelihood of overlaps, increasing resumption interval to: 345 + 120 = 465
+1488.179 (3) Opened log file at time: Sun, 18 Jul 2021 09:28:20 +0000 on https://juzzcurious.com
+1488.184 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.59 WP: 5.5.5 PHP: 7.4.8 (litespeed, Linux sg-nme-web352.main-hosting.eu 4.18.0-147.8.1.el7h.lve.1.x86_64 #1 SMP Mon Jun 29 09:05:02 EDT 2020 x86_64) MySQL: 10.4.19-MariaDB-cll-lve (max packet size=16777216) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 9.1M | 10M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+1488.185 (3) Free space on disk containing Updraft's temporary directory: 3082998.3 MB
+1488.187 (3) Requesting backup semaphore lock (59e60e5f815e)
+1488.190 (3) [Lock (updraft_lock_59e60e5f815e, wp_options) acquired] info
+1488.193 (3) Backup run: resumption=3, nonce=59e60e5f815e, file_nonce=59e60e5f815e begun at=1626599012 (1488s ago), job type=backup, previous check-in=2.2s
+1488.195 (3) Scheduling a resumption (4) after 465 seconds (1626600965) in case this run gets aborted
+1488.213 (3) Checking if we have a zip executable available
+1488.221 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+1488.226 (3) Creation of backups of directories: had begun; will resume
+1488.228 (3) Beginning creation of dump of plugins (split every: 400 MB)
+1488.229 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip: this file has already been created (age: 704 s)
+1488.232 (3) Beginning creation of dump of themes (split every: 400 MB)
+1488.233 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-themes.zip: this file has already been created (age: 666 s)
+1488.236 (3) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+1488.237 (3) Looking for candidates to backup in: /home/u496879535/domains/juzzcurious.com/public_html/wp-content/uploads
+1488.238 (3) finding files: 2017: adding to list (1)
+1488.239 (3) finding files: 2018: adding to list (2)
+1488.240 (3) finding files: elementor: adding to list (3)
+1488.241 (3) finding files: 2020: adding to list (4)
+1488.242 (3) finding files: fbrfg: adding to list (5)
+1488.242 (3) finding files: 2019: adding to list (6)
+1488.243 (3) finding files: essential-addons-elementor: adding to list (7)
+1488.244 (3) finding files: slider3: adding to list (8)
+1488.245 (3) finding files: 2021: adding to list (9)
+1488.246 (3) finding files: slider2: adding to list (10)
+1488.247 (3) finding files: slider4: adding to list (11)
+1488.248 (3) finding files: astra-sites: adding to list (12)
+1488.249 (3) finding files: slider6: adding to list (13)
+1488.250 (3) Beginning creation of dump of uploads (split every: 400 MB)
+1488.251 (3) File exists (/home/u496879535/domains/juzzcurious.com/public_html/wp-content/updraft/backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1626600076, time_now=1626600500, diff=424)
+1488.259 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: Zip file already exists, with 970 files
+1488.450 (3) Total entities for the zip file: 43 directories, 970 files (0 skipped as non-modified), 97.1 MB
+1488.452 (3) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: 100 files added (on-disk size: 93798.4 KB)
+1488.453 (3) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: 200 files added (on-disk size: 93798.4 KB)
+1488.454 (3) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: 300 files added (on-disk size: 93798.4 KB)
+1488.455 (3) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: 400 files added (on-disk size: 93798.4 KB)
+1488.456 (3) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: 500 files added (on-disk size: 93798.4 KB)
+1488.456 (3) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: 600 files added (on-disk size: 93798.4 KB)
+1488.457 (3) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: 700 files added (on-disk size: 93798.4 KB)
+1488.458 (3) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: 800 files added (on-disk size: 93798.4 KB)
+1488.459 (3) Zip: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip.tmp: 900 files added (on-disk size: 93798.4 KB)
+1599.432 (3) Created uploads zip (0) - 93798.4 KB in 111.2 s (843.7 KB/s) (sha1: 4b598441cfb28c577d0c298dd8af832080b26982, sha256: 410d3b57e0b4db382c83c2110cb4ae602f51046301c8f08cd3a3a659d6fee199)
+1599.436 (3) Beginning backup of other directories found in the content directory (index: 0)
+1599.437 (3) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+1599.438 (3) Looking for candidates to backup in: /home/u496879535/domains/juzzcurious.com/public_html/wp-content
+1599.439 (3) finding files: updraft: skipping: this is the updraft directory
+1599.440 (3) finding files: plugins: skipping: this is the plugins directory
+1599.440 (3) finding files: index.php: adding to list (1)
+1599.441 (3) finding files: ai1wm-backups: skipping: excluded by options (glob)
+1599.442 (3) finding files: uploads: skipping: this is the uploads directory
+1599.443 (3) finding files: themes: skipping: this is the themes directory
+1599.443 (3) finding files: upgrade: skipping: excluded by options
+1599.446 (3) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+1599.645 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-others.zip.tmp: size is now: 0.00 MB
+1599.652 (3) Created others zip (0) - 0.2 KB in 0.2 s (0.9 KB/s) (sha1: d429c54ba3357914fadf1239226a03a4d8253dcf, sha256: a6cef14a881e8289d23858afa5a0bfce367447017aa0cef242a97d674c1730f4)
+1599.657 (3) Saving backup status to database (elements: 8)
+1599.660 (3) Resuming creation of database dump (WordPress DB)
+1599.663 (3) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1599.666 (3) Testing potential mysqldump binary: /usr/bin/mysqldump
+1599.866 (3) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1527 bytes total)
+1599.869 (3) Working binary mysqldump found: /usr/bin/mysqldump
+1599.878 (3) Table wp_options: Total expected rows (approximate): 1512
+1599.964 (3) Table wp_options: Rows added in this batch (next record: 1111760): 1525 (uncompressed bytes in this segment=2361544) in 0.08 seconds
+1599.974 (3) Table wp_options: finishing file(s) (2, 261.1 KB)
+1599.978 (3) Table wp_users: Total expected rows (approximate): 7
+1599.981 (3) Table wp_users: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=3497) in 0.00 seconds
+1599.985 (3) Table wp_users: finishing file(s) (2, 1.6 KB)
+1599.989 (3) Table wp_usermeta: Total expected rows (approximate): 317
+1599.999 (3) Table wp_usermeta: Rows added in this batch (next record: 509): 482 (uncompressed bytes in this segment=42447) in 0.01 seconds
+1600.004 (3) Table wp_usermeta: finishing file(s) (2, 10.6 KB)
+1600.007 (3) Table wp_actionscheduler_actions: Total expected rows (approximate): 65
+1600.013 (3) Table wp_actionscheduler_actions: Rows added in this batch (next record: 535): 65 (uncompressed bytes in this segment=34011) in 0.01 seconds
+1600.018 (3) Table wp_actionscheduler_actions: finishing file(s) (2, 3 KB)
+1600.021 (3) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+1600.023 (3) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=633) in 0.00 seconds
+1600.026 (3) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+1600.029 (3) Table wp_actionscheduler_groups: Total expected rows (approximate): 0
+1600.031 (3) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=698) in 0.00 seconds
+1600.035 (3) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+1600.037 (3) Table wp_actionscheduler_logs: Total expected rows (approximate): 247
+1600.042 (3) Table wp_actionscheduler_logs: Rows added in this batch (next record: 1588): 191 (uncompressed bytes in this segment=17334) in 0.00 seconds
+1600.049 (3) Table wp_actionscheduler_logs: finishing file(s) (2, 2.3 KB)
+1600.054 (3) Table wp_commentmeta: Total expected rows (approximate): 80
+1600.064 (3) Table wp_commentmeta: Rows added in this batch (next record: 86): 80 (uncompressed bytes in this segment=4536) in 0.01 seconds
+1600.072 (3) Table wp_commentmeta: finishing file(s) (2, 0.8 KB)
+1600.165 (3) Table wp_comments: Total expected rows (approximate): 67552
+1616.704 (3) Table wp_comments: binary mysqldump finished (writes: 110, bytes 67161510, return code 0) in 16.54 seconds
+1616.729 (3) Table wp_comments: finishing file(s) (1, 17475.4 KB)
+1616.733 (3) Table wp_links: Total expected rows (approximate): 0
+1616.737 (3) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+1616.741 (3) Table wp_links: finishing file(s) (2, 0.5 KB)
+1616.747 (3) Table wp_postmeta: Total expected rows (approximate): 2357
+1616.909 (3) Table wp_postmeta: Rows added in this batch (next record: 7781): 2203 (uncompressed bytes in this segment=2754155) in 0.16 seconds
+1617.082 (3) Table wp_postmeta: finishing file(s) (2, 184.6 KB)
+1617.088 (3) Table wp_posts: Total expected rows (approximate): 559
+1617.273 (3) Table wp_posts: Rows added in this batch (next record: 2268): 608 (uncompressed bytes in this segment=2523423) in 0.18 seconds
+1617.288 (3) Table wp_posts: finishing file(s) (2, 231.1 KB)
+1617.299 (3) Table wp_term_relationships: Total expected rows (approximate): 99
+1617.304 (3) Table wp_term_relationships: Rows added in this batch (next record: 100000): 145 (uncompressed bytes in this segment=3007) in 0.00 seconds
+1617.309 (3) Table wp_term_relationships: finishing file(s) (2, 0.8 KB)
+1617.315 (3) Table wp_term_taxonomy: Total expected rows (approximate): 75
+1617.322 (3) Table wp_term_taxonomy: Rows added in this batch (next record: 111): 91 (uncompressed bytes in this segment=3935) in 0.01 seconds
+1617.328 (3) Table wp_term_taxonomy: finishing file(s) (2, 1 KB)
+1617.331 (3) Table wp_termmeta: Total expected rows (approximate): 3
+1617.338 (3) Table wp_termmeta: Rows added in this batch (next record: 11): 2 (uncompressed bytes in this segment=800) in 0.01 seconds
+1617.344 (3) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+1617.347 (3) Table wp_terms: Total expected rows (approximate): 75
+1617.351 (3) Table wp_terms: Rows added in this batch (next record: 111): 91 (uncompressed bytes in this segment=4517) in 0.00 seconds
+1617.371 (3) Table wp_terms: finishing file(s) (2, 1.8 KB)
+1617.375 (3) Table wp_nextend2_image_storage: Total expected rows (approximate): 8
+1617.379 (3) Table wp_nextend2_image_storage: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=4390) in 0.00 seconds
+1617.383 (3) Table wp_nextend2_image_storage: finishing file(s) (2, 0.9 KB)
+1617.387 (3) Table wp_nextend2_section_storage: Total expected rows (approximate): 5
+1617.390 (3) Table wp_nextend2_section_storage: Rows added in this batch (next record: 10791): 5 (uncompressed bytes in this segment=1480) in 0.00 seconds
+1617.393 (3) Table wp_nextend2_section_storage: finishing file(s) (2, 0.6 KB)
+1617.397 (3) Table wp_nextend2_smartslider3_generators: Total expected rows (approximate): 0
+1617.400 (3) Table wp_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.00 seconds
+1617.404 (3) Table wp_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+1617.407 (3) Table wp_nextend2_smartslider3_sliders: Total expected rows (approximate): 6
+1617.412 (3) Table wp_nextend2_smartslider3_sliders: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=69371) in 0.00 seconds
+1617.416 (3) Table wp_nextend2_smartslider3_sliders: finishing file(s) (2, 5.6 KB)
+1617.419 (3) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 4
+1617.421 (3) Table wp_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 1000): 5 (uncompressed bytes in this segment=774) in 0.00 seconds
+1617.425 (3) Table wp_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.4 KB)
+1617.429 (3) Table wp_nextend2_smartslider3_slides: Total expected rows (approximate): 15
+1617.438 (3) Table wp_nextend2_smartslider3_slides: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=130806) in 0.01 seconds
+1617.444 (3) Table wp_nextend2_smartslider3_slides: finishing file(s) (2, 7.8 KB)
+1617.448 (3) Table wp_nf3_action_meta: Total expected rows (approximate): 0
+1617.455 (3) Table wp_nf3_action_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=590) in 0.01 seconds
+1617.460 (3) Table wp_nf3_action_meta: finishing file(s) (2, 0.3 KB)
+1617.465 (3) Table wp_nf3_actions: Total expected rows (approximate): 0
+1617.472 (3) Table wp_nf3_actions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=724) in 0.01 seconds
+1617.478 (3) Table wp_nf3_actions: finishing file(s) (2, 0.4 KB)
+1617.482 (3) Table wp_nf3_chunks: Total expected rows (approximate): 0
+1617.487 (3) Table wp_nf3_chunks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=444) in 0.00 seconds
+1617.493 (3) Table wp_nf3_chunks: finishing file(s) (2, 0.3 KB)
+1617.497 (3) Table wp_nf3_field_meta: Total expected rows (approximate): 0
+1617.504 (3) Table wp_nf3_field_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=584) in 0.01 seconds
+1617.509 (3) Table wp_nf3_field_meta: finishing file(s) (2, 0.3 KB)
+1617.570 (3) Table wp_nf3_fields: Total expected rows (approximate): 0
+1617.579 (3) Table wp_nf3_fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=924) in 0.01 seconds
+1617.584 (3) Table wp_nf3_fields: finishing file(s) (2, 0.4 KB)
+1617.588 (3) Table wp_nf3_form_meta: Total expected rows (approximate): 0
+1617.596 (3) Table wp_nf3_form_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=578) in 0.01 seconds
+1617.603 (3) Table wp_nf3_form_meta: finishing file(s) (2, 0.3 KB)
+1617.607 (3) Table wp_nf3_forms: Total expected rows (approximate): 0
+1617.613 (3) Table wp_nf3_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=914) in 0.01 seconds
+1617.618 (3) Table wp_nf3_forms: finishing file(s) (2, 0.4 KB)
+1617.621 (3) Table wp_nf3_object_meta: Total expected rows (approximate): 0
+1617.626 (3) Table wp_nf3_object_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=571) in 0.00 seconds
+1617.630 (3) Table wp_nf3_object_meta: finishing file(s) (2, 0.3 KB)
+1617.664 (3) Table wp_nf3_objects: Total expected rows (approximate): 0
+1617.675 (3) Table wp_nf3_objects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=617) in 0.01 seconds
+1617.680 (3) Table wp_nf3_objects: finishing file(s) (2, 0.4 KB)
+1617.686 (3) Table wp_nf3_relationships: Total expected rows (approximate): 0
+1617.692 (3) Table wp_nf3_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=680) in 0.00 seconds
+1617.697 (3) Table wp_nf3_relationships: finishing file(s) (2, 0.4 KB)
+1617.700 (3) Table wp_nf3_upgrades: Total expected rows (approximate): 0
+1617.705 (3) Table wp_nf3_upgrades: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=476) in 0.00 seconds
+1617.709 (3) Table wp_nf3_upgrades: finishing file(s) (2, 0.3 KB)
+1617.712 (3) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 27
+1617.719 (3) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 49): 49 (uncompressed bytes in this segment=4415) in 0.00 seconds
+1617.723 (3) Table wp_wpforms_tasks_meta: finishing file(s) (2, 1 KB)
+1617.726 (3) Table wp_yoast_indexable: Total expected rows (approximate): 514
+1617.755 (3) Table wp_yoast_indexable: Rows added in this batch (next record: 783): 513 (uncompressed bytes in this segment=284747) in 0.03 seconds
+1617.762 (3) Table wp_yoast_indexable: finishing file(s) (2, 34.8 KB)
+1617.766 (3) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 34
+1617.770 (3) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 34 (uncompressed bytes in this segment=1441) in 0.00 seconds
+1617.775 (3) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.5 KB)
+1617.779 (3) Table wp_yoast_migrations: Total expected rows (approximate): 17
+1617.783 (3) Table wp_yoast_migrations: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1066) in 0.00 seconds
+1617.787 (3) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+1617.792 (3) Table wp_yoast_primary_term: Total expected rows (approximate): 24
+1617.796 (3) Table wp_yoast_primary_term: Rows added in this batch (next record: 33): 32 (uncompressed bytes in this segment=3406) in 0.00 seconds
+1617.800 (3) Table wp_yoast_primary_term: finishing file(s) (2, 1.1 KB)
+1617.803 (3) Table wp_yoast_seo_links: Total expected rows (approximate): 217
+1617.809 (3) Table wp_yoast_seo_links: Rows added in this batch (next record: 5213): 217 (uncompressed bytes in this segment=32224) in 0.00 seconds
+1617.813 (3) Table wp_yoast_seo_links: finishing file(s) (2, 5.8 KB)
+1617.815 (3) Table wp_yoast_seo_meta: Total expected rows (approximate): 315
+1617.820 (3) Table wp_yoast_seo_meta: Rows added in this batch (next record: 2088): 401 (uncompressed bytes in this segment=6315) in 0.00 seconds
+1617.824 (3) Table wp_yoast_seo_meta: finishing file(s) (2, 1.4 KB)
+1617.825 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_options.table.tmpr1111761.gz (1/40/fopen): adding to final database dump
+1617.829 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_options.table.gz (2/40/fopen): adding to final database dump
+1617.830 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_users.table.tmpr15.gz (3/40/fopen): adding to final database dump
+1617.831 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_users.table.gz (4/40/fopen): adding to final database dump
+1617.831 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_usermeta.table.tmpr510.gz (5/40/fopen): adding to final database dump
+1617.832 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_usermeta.table.gz (6/40/fopen): adding to final database dump
+1617.833 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_actionscheduler_actions.table.tmpr536.gz (7/40/fopen): adding to final database dump
+1617.834 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_actionscheduler_actions.table.gz (8/40/fopen): adding to final database dump
+1617.835 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/40/fopen): adding to final database dump
+1617.835 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_actionscheduler_claims.table.gz (10/40/fopen): adding to final database dump
+1617.836 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/40/fopen): adding to final database dump
+1617.837 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_actionscheduler_groups.table.gz (12/40/fopen): adding to final database dump
+1617.837 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_actionscheduler_logs.table.tmpr1589.gz (13/40/fopen): adding to final database dump
+1617.838 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_actionscheduler_logs.table.gz (14/40/fopen): adding to final database dump
+1617.839 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_commentmeta.table.tmpr87.gz (15/40/fopen): adding to final database dump
+1617.840 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_commentmeta.table.gz (16/40/fopen): adding to final database dump
+1617.841 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_comments.table.gz (17/40/fopen): adding to final database dump
+1634.764 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_links.table.tmpr0.gz (18/40/fopen): adding to final database dump
+1634.863 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_links.table.gz (19/40/fopen): adding to final database dump
+1634.866 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_postmeta.table.tmpr7782.gz (20/40/fopen): adding to final database dump
+1634.952 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_postmeta.table.gz (21/40/fopen): adding to final database dump
+1634.955 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_posts.table.tmpr2269.gz (22/40/fopen): adding to final database dump
+1635.179 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_posts.table.gz (23/40/fopen): adding to final database dump
+1635.180 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_term_relationships.table.tmpr100001.gz (24/40/fopen): adding to final database dump
+1635.181 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_term_relationships.table.gz (25/40/fopen): adding to final database dump
+1635.182 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_term_taxonomy.table.tmpr112.gz (26/40/fopen): adding to final database dump
+1635.183 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_term_taxonomy.table.gz (27/40/fopen): adding to final database dump
+1635.261 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_termmeta.table.tmpr12.gz (28/40/fopen): adding to final database dump
+1635.263 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_termmeta.table.gz (29/40/fopen): adding to final database dump
+1635.265 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_terms.table.tmpr112.gz (30/40/fopen): adding to final database dump
+1635.266 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_terms.table.gz (31/40/fopen): adding to final database dump
+1635.268 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nextend2_image_storage.table.tmpr10.gz (32/40/fopen): adding to final database dump
+1635.270 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nextend2_image_storage.table.gz (33/40/fopen): adding to final database dump
+1635.272 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nextend2_section_storage.table.tmpr10792.gz (34/40/fopen): adding to final database dump
+1635.274 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nextend2_section_storage.table.gz (35/40/fopen): adding to final database dump
+1635.275 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nextend2_smartslider3_generators.table.tmpr0.gz (36/40/fopen): adding to final database dump
+1635.277 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nextend2_smartslider3_generators.table.gz (37/40/fopen): adding to final database dump
+1635.278 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nextend2_smartslider3_sliders.table.tmpr7.gz (38/40/fopen): adding to final database dump
+1635.280 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nextend2_smartslider3_sliders.table.gz (39/40/fopen): adding to final database dump
+1635.282 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nextend2_smartslider3_sliders_xref.table.tmpr1001.gz (40/40/fopen): adding to final database dump
+1635.283 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (41/40/fopen): adding to final database dump
+1635.284 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nextend2_smartslider3_slides.table.tmpr16.gz (42/40/fopen): adding to final database dump
+1635.286 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nextend2_smartslider3_slides.table.gz (43/40/fopen): adding to final database dump
+1635.287 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_action_meta.table.tmpr0.gz (44/40/fopen): adding to final database dump
+1635.289 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_action_meta.table.gz (45/40/fopen): adding to final database dump
+1635.290 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_actions.table.tmpr0.gz (46/40/fopen): adding to final database dump
+1635.291 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_actions.table.gz (47/40/fopen): adding to final database dump
+1635.292 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_chunks.table.tmpr0.gz (48/40/fopen): adding to final database dump
+1635.293 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_chunks.table.gz (49/40/fopen): adding to final database dump
+1635.294 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_field_meta.table.tmpr0.gz (50/40/fopen): adding to final database dump
+1635.295 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_field_meta.table.gz (51/40/fopen): adding to final database dump
+1635.296 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_fields.table.tmpr0.gz (52/40/fopen): adding to final database dump
+1635.297 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_fields.table.gz (53/40/fopen): adding to final database dump
+1635.298 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_form_meta.table.tmpr0.gz (54/40/fopen): adding to final database dump
+1635.299 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_form_meta.table.gz (55/40/fopen): adding to final database dump
+1635.300 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_forms.table.tmpr0.gz (56/40/fopen): adding to final database dump
+1635.301 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_forms.table.gz (57/40/fopen): adding to final database dump
+1635.302 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_object_meta.table.tmpr0.gz (58/40/fopen): adding to final database dump
+1635.303 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_object_meta.table.gz (59/40/fopen): adding to final database dump
+1635.304 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_objects.table.tmpr0.gz (60/40/fopen): adding to final database dump
+1635.305 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_objects.table.gz (61/40/fopen): adding to final database dump
+1635.305 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_relationships.table.tmpr0.gz (62/40/fopen): adding to final database dump
+1635.306 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_relationships.table.gz (63/40/fopen): adding to final database dump
+1635.307 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_upgrades.table.tmpr0.gz (64/40/fopen): adding to final database dump
+1635.308 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_nf3_upgrades.table.gz (65/40/fopen): adding to final database dump
+1635.309 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_wpforms_tasks_meta.table.tmpr50.gz (66/40/fopen): adding to final database dump
+1635.310 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_wpforms_tasks_meta.table.gz (67/40/fopen): adding to final database dump
+1635.311 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_yoast_indexable.table.tmpr784.gz (68/40/fopen): adding to final database dump
+1635.312 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_yoast_indexable.table.gz (69/40/fopen): adding to final database dump
+1635.313 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (70/40/fopen): adding to final database dump
+1635.314 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_yoast_indexable_hierarchy.table.gz (71/40/fopen): adding to final database dump
+1635.315 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_yoast_migrations.table.tmpr19.gz (72/40/fopen): adding to final database dump
+1635.315 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_yoast_migrations.table.gz (73/40/fopen): adding to final database dump
+1635.316 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_yoast_primary_term.table.tmpr34.gz (74/40/fopen): adding to final database dump
+1635.317 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_yoast_primary_term.table.gz (75/40/fopen): adding to final database dump
+1635.318 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_yoast_seo_links.table.tmpr5214.gz (76/40/fopen): adding to final database dump
+1635.319 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_yoast_seo_links.table.gz (77/40/fopen): adding to final database dump
+1635.320 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_yoast_seo_meta.table.tmpr2089.gz (78/40/fopen): adding to final database dump
+1635.320 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db-table-wp_yoast_seo_meta.table.gz (79/40/fopen): adding to final database dump
+1635.327 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db.gz: finished writing out complete database file (18241 KB)
+1635.531 (3) Total database tables backed up: 40 (backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db.gz, size: 18678866, sha1: 543753a332dd00442efcd614cf03970cddc44ff0, sha256: 274f5ad75e87dab20a7740e4f2ca0755c6ddb837c9e7edac0d70ee905ad79fde)
+1635.538 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1635.539 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1635.540 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1635.540 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-others.zip: others: This file has not yet been successfully uploaded: will queue
+1635.541 (3) backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db.gz: db: This file has not yet been successfully uploaded: will queue
+1635.542 (3) Saving backup history. Total backup size: 160.1 MB
+1635.544 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+1635.547 (3) Cloud backup selection (1/1): none with instance (1/1) (last)
+1635.548 (3) No remote despatch: user chose no remote backup service
+1635.549 (3) Recording as successfully uploaded: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-plugins.zip
+1635.550 (3) Recording as successfully uploaded: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-themes.zip
+1635.552 (3) Recording as successfully uploaded: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-uploads.zip
+1635.554 (3) Recording as successfully uploaded: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-others.zip
+1635.556 (3) Recording as successfully uploaded: backup_2021-07-18-1433_Juzz_Curious_59e60e5f815e-db.gz
+1635.560 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1635.561 (3) Number of backup sets in history: 1; groups (db): 1
+1635.562 (3) Examining (for databases) backup set with group_id=0, nonce=59e60e5f815e, datestamp=1626599012 (Jul 18 2021 09:03:32)
+1635.563 (3) This backup set is the backup set just made, so will not be deleted.
+1635.563 (3) Number of backup sets in history: 1; groups (files): 1
+1635.564 (3) Examining (for files) backup set with nonce=59e60e5f815e, datestamp=1626599012 (Jul 18 2021 09:03:32)
+1635.564 (3) This backup set is the backup set just made, so will not be deleted.
+1635.565 (3) This backup set is the backup set just made, so will not be deleted.
+1635.565 (3) This backup set is the backup set just made, so will not be deleted.
+1635.565 (3) This backup set is the backup set just made, so will not be deleted.
+1635.565 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1635.566 (3) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1635.570 (3) Resume backup (59e60e5f815e, 3): finish run
+1635.573 (3) [Lock option (updraft_lock_59e60e5f815e, wp_options) released] info
+1635.575 (3) There were no errors in the uploads, so the 'resume' event (4) is being unscheduled
+1635.580 (3) No email will/can be sent - the user has not configured an email address.
+1635.581 (3) The backup apparently succeeded and is now complete
